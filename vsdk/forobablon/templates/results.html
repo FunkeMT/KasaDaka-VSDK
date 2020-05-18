@@ -22,6 +22,7 @@
   }
   .chart ul {
     list-style-type: none;
+    max-width: 90%;
   }
   .chart li {
     height: 80px;
@@ -52,6 +53,11 @@
   #chart_no {
     background-color: #C18F43;
   }
+  li.empty {
+    background-color: inherit !important;
+    min-width: 15% !important;
+    border: 1px solid white !important;
+  }
   .recordings li {
     margin: 10px 0;
     font-size: 2em;
@@ -77,12 +83,12 @@
   {% if total_count %}
     <div class="chart">
       <ul>
-        <li id="chart_yes" 
+        <li id="chart_yes" class="{% if yes_count == 0 %}empty{% endif %}"
               {% language "en" %}style="width: {{ yes_percentage }}%">{% endlanguage %}
               <span>{% trans "Yes"%}</span>
               <span class="chart-li-count">{{ yes_count }}</span>
         </li>
-        <li id="chart_no" 
+        <li id="chart_no" class="{% if no_count == 0 %}empty{% endif %}"
               {% language "en" %}style="width: {{ no_percentage }}%">{% endlanguage %}
               <span>{% trans "No"%}</span>
               <span class="chart-li-count">{{ no_count }}</span>
