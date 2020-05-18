@@ -43,6 +43,7 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'vsdk.service_development.apps.ServiceDevelopmentConfig',
+    'vsdk.forobablon.apps.ForobablonConfig',
     'storages',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -203,10 +204,11 @@ LOCALE_PATHS = (
             )
 
 # Provide a lists of languages which your site supports.
-LANGUAGES = (
-             ('en', _('English')),
-                 ('fr', _('French')),
-                 )
+LANGUAGES = [
+  ('nl', _('Dutch')),
+  ('en', _('English')),
+  ('de', _('German')),
+]
 ASTERISK_EXTENSIONS_FILE = '/etc/asterisk/extensions.conf'
 VXML_HOST_ADDRESS = 'http://127.0.0.1'
 

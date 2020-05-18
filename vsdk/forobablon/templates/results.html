@@ -1,0 +1,107 @@
+{% extends "base_generic.html" %}
+{% load i18n %}
+
+{% block styles %}
+<style>
+  div.heading h1 {
+    display: inline-block;
+  }
+  div.heading a {
+    text-decoration: none;
+    font-size: 2.9em;
+    margin-right: 10px;
+    border-radius: 2.9em;
+    border: 0.1em solid #FFF;
+    width: 0px;
+    height: 0px;
+    display: inline-block;
+    padding: 0.11em 1.2em 1.1em 0.2em;
+}
+  div.heading a:hover {
+    font-weight: bolder;
+  }
+  .chart ul {
+    list-style-type: none;
+  }
+  .chart li {
+    height: 80px;
+    margin: 50px;
+    padding: 0 15px;
+  }
+  .chart li:before {
+    margin-left: -80px;
+    margin-right: 50px;
+    font-size: 3em;
+  }
+  .chart li#chart_yes:before {
+    content: "\2713";
+  }
+  .chart li#chart_no:before {
+    content: "\00D7";
+  }
+  .chart li span {
+    line-height: 80px;
+    font-size: 3em;
+  }
+  .chart li span.chart-li-count {
+    float: right;
+  }
+  #chart_yes {
+    background-color: #1A6874;
+  }
+  #chart_no {
+    background-color: #23B4A7;
+  }
+  .recordings li {
+    margin: 10px 0;
+    font-size: 2em;
+  }
+  .recordings li audio {
+    display: inline-table;
+    vertical-align: middle;
+  }
+</style>
+{% endblock %}
+
+
+{% block header %}
+<div class="heading">
+  <a href="/forobablon/results">&#x21a9;&#xFE0E;</a>
+  <h1>{{ poll_date }}</h1>
+</div>
+{% endblock %}
+
+
+{% block content%}
+<div class="content">
+  {% if total_count %}
+    <div class="chart">
+      <ul>
+        <li id="chart_yes" 
+              {% language "en" %}style="width: {{ yes_percentage }}%">{% endlanguage %}
+              <span>{% trans "Yes"%}</span>
+              <span class="chart-li-count">{{ yes_count }}</span>
+        </li>
+        <li id="chart_no" 
+              {% language "en" %}style="width: {{ no_percentage }}%">{% endlanguage %}
+              <span>{% trans "No"%}</span>
+              <span class="chart-li-count">{{ no_count }}</span>
+        </li>
+      </ul>
+    </div>
+
+    {% if recordings %}
+    <h2>{% trans "Recordings"%}</h2>
+
+    <ul class="recordings">
+      {% for recording in recordings %}
+        <li>{{ recording.audio_file_player|safe }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  {% else %}
+  <h2>{% trans "No data"%} ...</h2>
+  {% endif %}
+
+</div>
+{% endblock %}
