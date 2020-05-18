@@ -1,17 +1,17 @@
 # ForobaBlon-SPS
-This repository holds the Foroba Blon prototype project which was part of the project assignment of a seven week Master course called "ICT4D: Information and Communication Technology for Development" at the Vrije Universiteit (https://www.vu.nl/).
+This repository holds the _Foroba Blon Simple Poll_ System prototype project which was part of the project assignment of a seven week Master course called "ICT4D: Information and Communication Technology for Development" at the Vrije Universiteit (https://www.vu.nl/).
 
-Foroba Blon is part of W4RA (https://w4ra.org/w4ra/), which tries to use computer science to help rural sustainable development. Foroba Blon tries to help rural communities to allow citizen journalism, with a voice-based/phone-based service to call to the radio station (https://w4ra.org/foroba-blon-community-radio-in-africa-and-the-web/) and allow people to vote, or leave voice messages. The project uses Kasdaka to accomplish this, more information about Kasadaka can be found in the section called Kasadaka.
+This project is based Foroba Blon which is part of W4RA (https://w4ra.org/w4ra/) and tries to use computer science to help rural sustainable development. Foroba Blon tries to help rural communities to allow citizen journalism, with a voice-based/phone-based service to call to the radio station (https://w4ra.org/foroba-blon-community-radio-in-africa-and-the-web/) and allow people to vote, or leave voice messages. The project uses Kasdaka to accomplish this, more information about Kasadaka can be found in the section called Kasadaka.
 
 ## Context
 The project takes is mode for people in rural areas. In these areas literacy is not always high, and digital literacy can even be lower. There for the solution is made in such a way that it would fit these need.
 
 # Participants
-The GitHub names of the participants are:
-- FunkeMT 
-- wkokgit
-- mrthefastfender
-- pjotrscholtze
+The names of the participants are:
+- [Markus Funke](https://github.com/FunkeMT) 
+- [Wouter Kok](https://github.com/wkokgit)
+- [Sven Preng](https://github.com/mrthefastfender)
+- [Pjotr Scholtze](https://github.com/pjotrscholtze)
 
 # Kasadaka
 Kasadaka is a Django based solution for managing voice based services. Kasadaka is specifically made for ICT4D, and generates VXML documents that contain the voice menus, references and links back to Kasadaka to generate new and dynamic documents. We extended the Kasadaka platform for our project with new features. The project is forked from th original Kasadaka repository: https://github.com/abaart/KasaDaka-VSDK
