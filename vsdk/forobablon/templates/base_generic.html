@@ -59,6 +59,9 @@
 			button.lang-button.active {
 				background: #777
 			}
+			.heading img {
+				float: left;
+			}
 		</style>
 
 		{% block styles %}{% endblock %}
@@ -68,7 +71,6 @@
 	<body>
 		<div class="main">
 			<header>
-				<img src="{% static "vsdk/logo.png" %}" alt="My image"/>
 				{% block header %}{% endblock %}
 			</header>
 
