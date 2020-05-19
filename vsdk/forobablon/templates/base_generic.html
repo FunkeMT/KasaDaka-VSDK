@@ -75,8 +75,7 @@
 							<input name="next" type="hidden" value="{{ redirect_to }}" />
 							<input name="language" type="hidden" value="{{ language.code }}" />
 						</form>
-						{% LANGUAGE_CODE %}
-						{% if LANGUAGE_CODE == language %}
+						{% if LANGUAGE_CODE == language.code %}
 							<button class="lang-button active" type="submit" form="form_{{ language.code }}" value="Submit">{{ language.code }}</button>
 						{% else %}
 							<button class="lang-button" type="submit" form="form_{{ language.code }}" value="Submit">{{ language.code }}</button>

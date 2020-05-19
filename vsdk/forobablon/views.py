@@ -4,9 +4,9 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from django.conf import settings
 from django.utils.dateparse import parse_date
+import django.utils.translation
 
 from vsdk.service_development.models import ChoiceSaved, CallSession, SpokenUserInput
-
 
 def results(request, date):
 
@@ -30,6 +30,7 @@ def results(request, date):
     'no_count': no_count,
     'total_count': total_count,
     'recordings': sui,
+    'language':  django.utils.translation.get_language(),
   }
 
   if total_count > 0:
