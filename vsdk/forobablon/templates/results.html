@@ -101,7 +101,7 @@
 
     <ul class="recordings">
       {% for recording in recordings %}
-        <li>{{ recording.audio_file_player|safe }}</li>
+        <li>{{ recording.audio_file_player|safe }} <span>[{{ recording.time }}]</span></li>
       {% endfor %}
     </ul>
     {% endif %}
