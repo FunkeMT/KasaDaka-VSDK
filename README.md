@@ -1,3 +1,5 @@
+![Heroku](http://heroku-badge.herokuapp.com/?app=foroba-blon)
+
 # ForobaBlon-SPS
 This repository holds the _Foroba Blon Simple Poll_ System prototype project which was part of the project assignment of a seven week Master course called "ICT4D: Information and Communication Technology for Development" at the Vrije Universiteit (https://www.vu.nl/).
 
