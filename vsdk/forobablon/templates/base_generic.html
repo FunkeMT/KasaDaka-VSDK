@@ -1,4 +1,5 @@
 {% load i18n %}
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -67,6 +68,7 @@
 	<body>
 		<div class="main">
 			<header>
+				<img src="{% static "vsdk/logo.png" %}" alt="My image"/>
 				{% block header %}{% endblock %}
 			</header>
 
