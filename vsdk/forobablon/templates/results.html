@@ -4,7 +4,7 @@
 
 {% block styles %}
 <style>
-  div.heading h1 {
+  .subheader h1 {
     display: inline-block;
   }
   .back-button {
@@ -75,8 +75,10 @@
 <div class="heading">
   <img src="{% static "img/logo.png" %}" alt="Foroba Blon" height="75"/>
 </div>
-<a href="/forobablon/results" class="back-button">&#x21a9;&#xFE0E;</a>
-<h1>{{ poll_date }}</h1>
+<div class="subheader">
+  <a href="/forobablon/results" class="back-button">&#x21a9;&#xFE0E;</a>
+  <h1>{{ poll_date }}</h1>
+</div>
 {% endblock %}
 
 
