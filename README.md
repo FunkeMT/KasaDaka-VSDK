@@ -8,6 +8,9 @@ This project is based Foroba Blon which is part of W4RA (https://w4ra.org/w4ra/)
 ## Context
 The project takes is mode for people in rural areas. In these areas literacy is not always high, and digital literacy can even be lower. There for the solution is made in such a way that it would fit these need.
 
+# Video
+[![Foroba-Blon-SPS](https://imgur.com/a/L4snPT1)](https://www.youtube.com/watch?v=sUhDYByVE2s "Foroba-Blon-SPS Demo - Click to Watch!")
+
 # Participants
 The names of the participants are:
 - [Markus Funke](https://github.com/FunkeMT) 
@@ -20,10 +23,6 @@ Kasadaka is a Django based solution for managing voice based services. Kasadaka 
 
 # How does it work
 The project allows two actors to operate with the platform, the radio host and the listener. The radio host sets up a question, and the callers can call to our platform. The system will anwser the call and the the caller can vote with the keypad of their phone and/or leave a message. The radio host can see the results on a webpage and playback certain calls.
-
-## Example video
-@todo
-
 
 # License
 The MIT License (MIT)
