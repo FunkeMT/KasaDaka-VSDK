@@ -1,6 +1,6 @@
 ![Heroku](http://heroku-badge.herokuapp.com/?app=foroba-blon)
 
-# ForobaBlon-SPS
+# Foroba Blon - Simple Poll System
 This repository holds the _Foroba Blon Simple Poll_ System prototype project which was part of the project assignment of a seven week Master course called "ICT4D: Information and Communication Technology for Development" at the Vrije Universiteit (https://www.vu.nl/).
 
 This project is based Foroba Blon which is part of W4RA (https://w4ra.org/w4ra/) and tries to use computer science to help rural sustainable development. Foroba Blon tries to help rural communities to allow citizen journalism, with a voice-based/phone-based service to call to the radio station (https://w4ra.org/foroba-blon-community-radio-in-africa-and-the-web/) and allow people to vote, or leave voice messages. The project uses Kasdaka to accomplish this, more information about Kasadaka can be found in the section called Kasadaka.
