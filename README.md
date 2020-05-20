@@ -1,12 +1,12 @@
 ![Heroku](http://heroku-badge.herokuapp.com/?app=foroba-blon)
 
 # Foroba Blon - Simple Poll System
-This repository holds the _Foroba Blon Simple Poll_ System prototype project which was part of the project assignment of a seven week Master course called "ICT4D: Information and Communication Technology for Development" at the Vrije Universiteit (https://www.vu.nl/).
+This repository holds the _Foroba Blon Simple Poll_ system prototype project. It was part of the project assignment of a seven-week Master course called "ICT4D: Information and Communication Technology for Development" at the Vrije Universiteit (https://www.vu.nl/).
 
-This project is based Foroba Blon which is part of W4RA (https://w4ra.org/w4ra/) and tries to use computer science to help rural sustainable development. Foroba Blon tries to help rural communities to allow citizen journalism, with a voice-based/phone-based service to call to the radio station (https://w4ra.org/foroba-blon-community-radio-in-africa-and-the-web/) and allow people to vote, or leave voice messages. The project uses Kasdaka to accomplish this, more information about Kasadaka can be found in the section called Kasadaka.
+This project is based on Foroba Blon, which is part of W4RA (https://w4ra.org/w4ra/) and tries to use computer science to help sustainable rural development. Foroba Blon tries to help rural communities to allow citizen journalism, with a voice-based/phone-based service, to call to the radio station (https://w4ra.org/foroba-blon-community-radio-in-africa-and-the-web/) and allow people to vote, or leave voice messages. The project uses Kasadaka to accomplish this; more information about Kasadaka can be found in the section called Kasadaka.
 
 ## Context
-The project takes is mode for people in rural areas. In these areas literacy is not always high, and digital literacy can even be lower. There for the solution is made in such a way that it would fit these need.
+The project is done for people in rural areas. In these areas, literacy is not always high, and digital literacy can even be lower. Therefore the solution is made in such a way that it would fit these needs.
 
 # Video
 [![Foroba-Blon-SPS](https://i.imgur.com/D2mJKFh.png)](https://www.youtube.com/watch?v=sUhDYByVE2s "Foroba-Blon-SPS Demo - Click to Watch!")
@@ -19,10 +19,10 @@ The names of the participants are:
 - [Pjotr Scholtze](https://github.com/pjotrscholtze)
 
 # Kasadaka
-Kasadaka is a Django based solution for managing voice based services. Kasadaka is specifically made for ICT4D, and generates VXML documents that contain the voice menus, references and links back to Kasadaka to generate new and dynamic documents. We extended the Kasadaka platform for our project with new features. The project is forked from th original Kasadaka repository: https://github.com/abaart/KasaDaka-VSDK
+Kasadaka is a Django based solution for managing voice-based services. Kasadaka is made explicitly for ICT4D, and generates VXML documents that contain the voice menus, references, and links back to Kasadaka to create new and dynamic documents. We extended the Kasadaka platform for our project with new features. The project is forked from the original Kasadaka repository: https://github.com/abaart/KasaDaka-VSDK
 
 # How does it work
-The project allows two actors to operate with the platform, the radio host and the listener. The radio host sets up a question, and the callers can call to our platform. The system will anwser the call and the the caller can vote with the keypad of their phone and/or leave a message. The radio host can see the results on a webpage and playback certain calls.
+The project allows two actors to operate with the platform, the radio host, and the listener. The radio host sets up a question, and the callers can call to our platform. The system will answer the call, and then the caller can vote with the keypad of their phone and leave a message. The radio host can see the results on a webpage and can playback individual voice messages.
 
 # License
 The MIT License (MIT)
