@@ -9,7 +9,7 @@ This project is based Foroba Blon which is part of W4RA (https://w4ra.org/w4ra/)
 The project takes is mode for people in rural areas. In these areas literacy is not always high, and digital literacy can even be lower. There for the solution is made in such a way that it would fit these need.
 
 # Video
-[![Foroba-Blon-SPS](https://imgur.com/a/L4snPT1)](https://www.youtube.com/watch?v=sUhDYByVE2s "Foroba-Blon-SPS Demo - Click to Watch!")
+[![Foroba-Blon-SPS](https://i.imgur.com/D2mJKFh.png)](https://www.youtube.com/watch?v=sUhDYByVE2s "Foroba-Blon-SPS Demo - Click to Watch!")
 
 # Participants
 The names of the participants are:
